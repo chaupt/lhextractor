@@ -1,0 +1,14 @@
+LHExtractor
+by Christopher Haupt (chaupt@webvanta.com)
+
+LHExtractor pulls tickets from a given Lighthouse Project's Milestone and dumps out a comma separated value stream to standard io (suitable for capturing to a file). 
+
+Currently uses hard-coded field list for what is outputted as this is what we need to import into Pivotal Tracker.
+
+This might be useful to someone looking to make the transition to Pivotal or just looking for an example using the Lighthouse API.
+
+Install needed gems via: sudo gem install Caged-lighthouse-api, fastercsv (etc)
+
+TODO
+ - Specify fields and header from command line
+ - General cleanup from what was admittedly a very fast hack
